@@ -36,8 +36,8 @@ botaoZap = Pin(35, Pin.IN, Pin.PULL_DOWN)  # Botão para enviar WhatsApp
 botao = Pin(12, Pin.IN, Pin.PULL_DOWN)  # Botão para exibir no terminal
 
 # Configuração da API do WhatsApp
-PHONE_NUMBER = '5511945280600'  # Número no formato internacional
-API_KEY = '7606295'         # Chave de API CallMeBot
+PHONE_NUMBER = 'PhoneNumber'  # Número no formato internacional
+API_KEY = 'APIKEY'         # Chave de API CallMeBot
 
 # Último envio pelo WhatsApp
 ultimo_envio = 0
